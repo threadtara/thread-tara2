@@ -1,0 +1,31 @@
+{
+  "brocade": [
+    "/brocade/brocade.webp",
+    "/brocade/brocade1.webp",
+    "/brocade/brocade2.webp",
+    "/brocade/brocade3.webp",
+    "/brocade/brocade4.webp",
+    "/brocade/brocade5.webp",
+    "/brocade/brocade6.webp",
+    "/brocade/brocade7.webp"
+  ],
+  "embroidery": [
+    "/embroidery/embroidery.webp",
+    "/embroidery/embroidery1.webp",
+    "/embroidery/embroidery2.webp",
+    "/embroidery/embroidery3.webp",
+    "/embroidery/embroidery4.webp",
+    "/embroidery/embroidery5.webp"
+  ],
+  "plain": [
+    "/plain/plain.webp",
+    "/plain/plain1.webp",
+    "/plain/plain2.webp",
+    "/plain/plain3.webp",
+    "/plain/plain4.webp",
+    "/plain/plain5.webp",
+    "/plain/plain6.webp",
+    "/plain/plain7.webp",
+    "/plain/plain8.webp"
+  ]
+}
