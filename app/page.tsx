@@ -12,6 +12,11 @@ import FabricCard from "@/components/FabricCard";
 import { CSSProperties, useEffect, useRef, useState } from "react";
 
 import SparkleCanvas from "@/components/SparkleCanvas";
+import ServiceComp from "@/components/ServiceComp";
+import ContactForm from "@/components/ContactForm";
+import FeatureFab from "@/components/FeatureFab";
+import AutoCarousel from "@/components/AutoCarousel";
+
 
 interface Particle {
 
@@ -88,9 +93,7 @@ export default function Home() {
           className="rounded-full border-2 border-fabric-cream px-6 py-2 text-sm font-bold text-fabric-cream transition hover:bg-fabric-gold hover:text-fabric-dark hover:border-fabric-gold shadow-lg"
 
         >
-
           Contact Shop
-
         </a>
 
       </nav>
@@ -185,9 +188,9 @@ export default function Home() {
 
               src="/threadlogo.png"
 
-              width={390}
+              width={420}
 
-              height={300}
+              height={420}
 
               alt="Logo"
 
@@ -220,7 +223,6 @@ export default function Home() {
           0%, 100% { filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.5)); }
 
           50% { filter: drop-shadow(0 0 25px rgba(212, 175, 55, 0.8)); }
-
         }
 
         .animate-ooze-sparkle { animation: ooze-sparkle 5s ease-out infinite; }
@@ -280,11 +282,8 @@ export default function Home() {
                 transform: translate(2px, -2px);
 
               }
-
               100% {
-
                 transform: translate(-2px, 0);
-
               }
 
             }
@@ -294,31 +293,26 @@ export default function Home() {
               /* Slow and smooth movement to complement the filter */
 
               animation: flag-flow 12s ease-in-out infinite;
-
             }
 
           `}</style>
 
 
 
-          <h2 className="mb-8 font-serif text-3xl text-white md:text-5xl font-light leading-tight">
+          <h2 className="mb-8 mt-8 font-serif text-3xl text-white md:text-5xl font-light leading-tight">
 
-            Premium Textiles For <br /> Every Vision
+            Premium Textiles For  Every Vision
 
           </h2>
 
 
 
-          <div className="mx-auto h-1 w-24 bg-fabric-gold mb-8 rounded-full"></div>
-
-
-
+          <div className="mx-auto h-1 w-32 bg-fabric-gold mb-8 rounded-full"></div>
           <p className="mx-auto max-w-2xl text-lg text-gray-200 leading-relaxed">
 
             Explore our curated collection of exquisite silks, artisanal linens,
 
             and royal velvets. Visit our showroom to experience the touch of
-
             luxury.
 
           </p>
@@ -351,7 +345,7 @@ export default function Home() {
 
 
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid  items-center justify-center grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 
             {fabrics.map((fabric) => (
 
@@ -364,6 +358,11 @@ export default function Home() {
         </div>
 
       </section>
+      
+      <FeatureFab/>
+      <AutoCarousel/>
+      <ServiceComp />
+      <ContactForm/>
 
       <section
 

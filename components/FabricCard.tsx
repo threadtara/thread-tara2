@@ -5,7 +5,7 @@ import { Fabric } from "@/lib/fabrics";
 export default function FabricCard({ fabric }: { fabric: Fabric }) {
   return (
     <Link href={`/fabrics/${fabric.id}`} passHref>
-      <div className="group relative h-96 w-full overflow-hidden rounded-xl bg-gray-100 shadow-sm transition-all duration-500 hover:shadow-xl cursor-pointer">
+      <div className="group relative h-96 w-full overflow-hidden  rounded-xl bg-gray-100 shadow-sm transition-all duration-500 hover:shadow-xl cursor-pointer">
         {/* Image Container with Zoom/Pan effect */}
         <div className="absolute inset-0 overflow-hidden">
           <Image

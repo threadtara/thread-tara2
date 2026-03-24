@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { fabrics } from "@/lib/fabrics";
 // Import the generated manifest
 import imageManifest from "@/lib/image-manifest.json";
+import ServiceComp from "@/components/ServiceComp";
 
 // Type safety for the manifest
 const manifest = imageManifest as Record<string, string[]>;
@@ -172,6 +173,7 @@ export default function FabricDetailPage({
           </div>
         )}
       </main>
+    
 
       <footer className="border-t border-gray-100 py-24 text-center">
         <p className="text-[10px] font-bold uppercase tracking-[0.5em] text-gray-400 mb-8">

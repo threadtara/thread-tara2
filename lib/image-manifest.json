@@ -1,21 +1,51 @@
 {
   "brocade": [
-    "/brocade/brocade.webp",
-    "/brocade/brocade1.webp",
-    "/brocade/brocade2.webp",
-    "/brocade/brocade3.webp",
-    "/brocade/brocade4.webp",
-    "/brocade/brocade5.webp",
-    "/brocade/brocade6.webp",
-    "/brocade/brocade7.webp"
+    "/brocade/DSC01300.JPG",
+    "/brocade/DSC01302.JPG",
+    "/brocade/DSC01312.JPG",
+    "/brocade/DSC01320.JPG",
+    "/brocade/DSC01321.JPG"
+  ],
+  "brocade-notactive": [
+    "/brocade-notactive/brocade.webp",
+    "/brocade-notactive/brocade1.webp",
+    "/brocade-notactive/brocade2.webp",
+    "/brocade-notactive/brocade3.webp",
+    "/brocade-notactive/brocade4.webp",
+    "/brocade-notactive/brocade5.webp",
+    "/brocade-notactive/brocade6.webp",
+    "/brocade-notactive/brocade7.webp"
+  ],
+  "embroideredorganza": [
+    "/embroideredOrganza/DSC01326.JPG",
+    "/embroideredOrganza/DSC01327.JPG",
+    "/embroideredOrganza/DSC01328.JPG",
+    "/embroideredOrganza/embroidered-organza.JPG"
   ],
   "embroidery": [
-    "/embroidery/embroidery.webp",
-    "/embroidery/embroidery1.webp",
-    "/embroidery/embroidery2.webp",
-    "/embroidery/embroidery3.webp",
-    "/embroidery/embroidery4.webp",
-    "/embroidery/embroidery5.webp"
+    "/embroidery/DSC01325.JPG",
+    "/embroidery/DSC01366.JPG",
+    "/embroidery/DSC01367.JPG",
+    "/embroidery/DSC01368.JPG",
+    "/embroidery/DSC01369.JPG",
+    "/embroidery/DSC01370.JPG"
+  ],
+  "embroidery-notactive": [
+    "/embroidery-notactive/embroidery.webp",
+    "/embroidery-notactive/embroidery1.webp",
+    "/embroidery-notactive/embroidery2.webp",
+    "/embroidery-notactive/embroidery3.webp",
+    "/embroidery-notactive/embroidery4.webp",
+    "/embroidery-notactive/embroidery5.webp"
+  ],
+  "organza": [
+    "/organza/DSC01349.JPG",
+    "/organza/DSC01354.JPG",
+    "/organza/DSC01356.JPG",
+    "/organza/DSC01357.JPG",
+    "/organza/DSC01359.JPG",
+    "/organza/DSC01361.JPG",
+    "/organza/organza.JPG"
   ],
   "plain": [
     "/plain/plain.webp",
