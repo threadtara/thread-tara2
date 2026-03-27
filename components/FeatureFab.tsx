@@ -34,7 +34,7 @@ export default function FeatureFab() {
           {features.map((feature) => (
             <a
               key={feature.id}
-              href={feature.href} // optional: link to fabric detail page
+              // href={feature.href} // optional: link to fabric detail page
               className="group relative shadow border-1.5 border-[#c6b6ae] overflow-hidden rounded-3xl h-48 sm:h-56 lg:h-96 cursor-pointer transition-all duration-500 hover:scale-[1.03] block"
               onMouseEnter={() => setHoveredCard(feature.id)}
               onMouseLeave={() => setHoveredCard(null)}
