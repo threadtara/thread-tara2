@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { fabrics } from "@/lib/fabrics";
 // Import the generated manifest
 import imageManifest from "@/lib/image-manifest.json";
-import ServiceComp from "@/components/ServiceComp";
 
 // Type safety for the manifest
 const manifest = imageManifest as Record<string, string[]>;

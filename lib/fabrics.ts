@@ -60,7 +60,7 @@ export const fabrics: Fabric[] = [
   slug: 'organza-fabric-delhi',
   name: 'Organza Fabrics',
   category: 'Organza',
-  image: '/organza/organza.jpg',
+  image: '/organza/organza.JPG',
   imageAlt: 'Premium organza fabric with sheer texture and crisp finish, perfect for designer ethnic wear, Thread Tara Delhi',
   description: 'Elegant, sheer organza fabrics with a crisp texture and luxurious finish.',
   longDescription:
@@ -74,7 +74,7 @@ export const fabrics: Fabric[] = [
   slug: 'embroidered-organza-fabric-delhi',
   name: 'Embroidered Organza Fabrics',
   category: 'embroideredOrganza',
-  image: '/embroideredOrganza/embroidered-organza.jpg',
+  image: '/embroideredOrganza/embroidered-organza.JPG',
   imageAlt: 'Premium embroidered organza fabric with floral thread work and pearl embellishments, ideal for designer ethnic wear, Thread Tara Delhi',
   description: 'Luxurious embroidered organza fabrics featuring delicate thread work and elegant pearl embellishments.',
   longDescription:
@@ -101,3 +101,51 @@ export function getFabricBySlug(slug: string): Fabric | undefined {
 export function getFabricById(id: string): Fabric | undefined {
   return fabrics.find((f) => f.id === id);
 }
+
+
+
+export interface FabricClip {
+  id: string;
+  video: string;
+  videoAlt: string;       // descriptive alt text for video SEO
+  slug: string;           // SEO-friendly URL of the fabric page
+  title: string;          // Video title for context
+  metaDescription: string; // Optional description for SEO
+}
+
+// Exportable array of SEO-friendly fabric clips
+export const fabricClips: FabricClip[] = [
+  {
+    id: '1',
+    video: '/fabric-clip/model1.MP4',
+    videoAlt: 'Video showcasing luxurious brocade fabrics for bridal and festive wear in Delhi, Thread Tara',
+    slug: '/brocade-fabric-delhi',
+    title: 'Brocade Fabrics Video',
+    metaDescription: 'Watch a premium video showcasing luxurious brocade fabrics for bridal and festive wear available at Thread Tara, Lajpat Nagar, Delhi.',
+  },
+  {
+    id: '2',
+    video: '/fabric-clip/model2.MP4',
+    videoAlt: 'Video showcasing intricate embroidery fabrics for bridal and festive wear in Delhi, Thread Tara',
+    slug: '/embroidery-fabric-delhi',
+    title: 'Embroidery Fabrics Video',
+    metaDescription: 'Watch our embroidery fabrics video highlighting intricate needlework for bridal and festive occasions at Thread Tara, Lajpat Nagar, Delhi.',
+  },
+  {
+    id: '3',
+    video: '/fabric-clip/model3.MP4',
+    videoAlt: 'Video showing premium plain silk and solid-colored fabrics in Delhi, Thread Tara',
+    slug: '/plain-fabric-delhi',
+    title: 'Plain Fabrics Video',
+    metaDescription: 'Explore a video of premium plain silk and solid-colored fabrics at Thread Tara, perfect for ethnic wear and designer garments in Delhi.',
+  },
+  {
+    id: '4',
+    video: '/fabric-clip/model4.MP4',
+    videoAlt: 'Video highlighting premium organza fabrics with sheer texture and crisp finish in Delhi, Thread Tara',
+    slug: '/organza-fabric-delhi',
+    title: 'Organza Fabrics Video',
+    metaDescription: 'Watch a premium video showcasing elegant organza fabrics with sheer texture and crisp finish, available at Thread Tara, Lajpat Nagar, Delhi.',
+  },
+];
+

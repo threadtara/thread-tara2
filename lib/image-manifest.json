@@ -57,5 +57,12 @@
     "/plain/plain6.webp",
     "/plain/plain7.webp",
     "/plain/plain8.webp"
+  ],
+
+  "clips":[
+    "/fabric-clip/model1.MP4",
+    "/fabric-clip/model2.MP4",
+    "/fabric-clip/model3.MP4",
+    "/fabric-clip/model4.MP4"
   ]
 }
