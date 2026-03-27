@@ -1,5 +1,6 @@
 {
   "brocade": [
+    "/brocade/brocade.webp",
     "/brocade/DSC01300.JPG",
     "/brocade/DSC01302.JPG",
     "/brocade/DSC01312.JPG",
@@ -7,7 +8,6 @@
     "/brocade/DSC01321.JPG"
   ],
   "brocade-notactive": [
-    "/brocade-notactive/brocade.webp",
     "/brocade-notactive/brocade1.webp",
     "/brocade-notactive/brocade2.webp",
     "/brocade-notactive/brocade3.webp",
@@ -28,10 +28,10 @@
     "/embroidery/DSC01367.JPG",
     "/embroidery/DSC01368.JPG",
     "/embroidery/DSC01369.JPG",
-    "/embroidery/DSC01370.JPG"
+    "/embroidery/DSC01370.JPG",
+    "/embroidery/embroidery.webp"
   ],
   "embroidery-notactive": [
-    "/embroidery-notactive/embroidery.webp",
     "/embroidery-notactive/embroidery1.webp",
     "/embroidery-notactive/embroidery2.webp",
     "/embroidery-notactive/embroidery3.webp",
