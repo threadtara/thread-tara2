@@ -42,8 +42,6 @@ export default function Home() {
 
   const [particles, setParticles] = useState<Particle[]>([]);
 
-
-
   useEffect(() => {
 
     const frame = requestAnimationFrame(() => {

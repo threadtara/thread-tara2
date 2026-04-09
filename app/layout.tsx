@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Thread Tara - Be Your Own Designer",
+  title: "Thread Tara | Premium Fabrics Store in Lajpat Nagar Delhi",
   description:
-    "Shop premium silk, brocade & embroidery fabrics at Thread Tara, Lajpat Nagar, Delhi. Luxury ethnic Indian textiles for bridal, festive & designer wear.",
+    "Shop premium brocade, organza, silk & embroidered fabrics at Thread Tara, Lajpat Nagar Delhi (Gate No.2, near Metro). Trusted by designers & brides. Visit our showroom or WhatsApp now.",
 };
 
 export default function RootLayout({

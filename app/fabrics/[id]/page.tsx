@@ -19,8 +19,9 @@ export default function FabricDetailPage({
   const id = resolvedParams.id;
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-
-  const fabric = fabrics.find((f) => String(f.id) === String(id));
+const fabric = fabrics.find(
+  (f) => f.slug === id || String(f.id) === String(id)
+);
 
   // Fix: Lowercase the category name to match the manifest keys
   const images = fabric ? manifest[fabric.category.toLowerCase()] || [] : [];

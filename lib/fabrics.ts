@@ -15,7 +15,7 @@ export interface Fabric {
 export const fabrics: Fabric[] = [
   {
     id: '1',
-    slug: 'brocade-fabric-delhi',
+    slug: 'brocade-fabric',
     name: 'Brocade Fabrics',
     category: 'Brocade',
     image: '/brocade/brocade.webp',
@@ -29,7 +29,7 @@ export const fabrics: Fabric[] = [
   },
   {
     id: '2',
-    slug: 'embroidery-fabric-delhi',
+    slug: 'embroidery-fabric',
     name: 'Embroidery Fabrics',
     category: 'Embroidery',
     image: '/embroidery/embroidery.webp',
@@ -43,7 +43,7 @@ export const fabrics: Fabric[] = [
   },
   {
     id: '3',
-    slug: 'plain-fabric-delhi',
+    slug: 'plain-fabric',
     name: 'Plain Fabrics',
     category: 'Plain',
     image: '/plain/plain.webp',
@@ -57,7 +57,7 @@ export const fabrics: Fabric[] = [
   },
   {
   id: '4',
-  slug: 'organza-fabric-delhi',
+  slug: 'organza-fabric',
   name: 'Organza Fabrics',
   category: 'Organza',
   image: '/organza/organza.JPG',
@@ -71,7 +71,7 @@ export const fabrics: Fabric[] = [
 },
 {
   id: '5',
-  slug: 'embroidered-organza-fabric-delhi',
+  slug: 'embroidered-organza-fabric',
   name: 'Embroidered Organza Fabrics',
   category: 'embroideredOrganza',
   image: '/embroideredOrganza/embroidered-organza.JPG',
