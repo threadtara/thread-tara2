@@ -18,6 +18,7 @@ import ContactForm from "@/components/ContactForm";
 import FeatureFab from "@/components/FeatureFab";
 import AutoCarousel from "@/components/AutoCarousel";
 import JsonLd from "@/components/JsonLd";
+import FAQ from "@/components/FAQs";
 
 
 interface Particle {
@@ -366,7 +367,7 @@ export default function Home() {
       <ContactForm/>
 
       <InfiniteMovingCardsDemo/>
-
+      <FAQ/>
       <section
 
         id="contact"
