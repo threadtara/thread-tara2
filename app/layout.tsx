@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     "Fabric store near me",
     "fabric cloth",
     "fabrics for clothing",
-    "Fabrics in mid range"
+    "Fabrics in mid range",
+    "Fabric near me",
+    "Fabrics near me"
   ],
 
   authors: [{ name: "Thread Tara" }],
