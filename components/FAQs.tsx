@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "What are your store timings?",
     answer:
-      "Our store is open Monday to Saturday from 10:00 AM to 8:00 PM and Sunday from 11:00 AM to 6:00 PM. We welcome walk-ins anytime during working hours.",
+     "Our store is open 7 days a week from 11:00 AM to 8:00 PM. We welcome walk-ins anytime!",
   },
   {
     question: "Can I contact you before visiting?",

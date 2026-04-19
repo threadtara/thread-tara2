@@ -29,13 +29,14 @@ export default function JsonLd() {
       latitude: 28.5665,   // ← verify exact coordinates
       longitude: 77.2431,
     },
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        opens: "10:00",
-        closes: "20:00",
-      },
+  openingHoursSpecification: [
+  {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    opens: "11:00",
+    closes: "20:00",
+  },
+
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Sunday"],
