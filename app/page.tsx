@@ -6,6 +6,7 @@ import Image from "next/image"; // Import Image component
 import { fabrics } from "@/lib/fabrics";
 
 import FabricCard from "@/components/FabricCard";
+import InfiniteMovingCardsDemo from "../components/InfiniteMovingCardsDemo";
 
 
 
@@ -16,6 +17,7 @@ import ServiceComp from "@/components/ServiceComp";
 import ContactForm from "@/components/ContactForm";
 import FeatureFab from "@/components/FeatureFab";
 import AutoCarousel from "@/components/AutoCarousel";
+import JsonLd from "@/components/JsonLd";
 
 
 interface Particle {
@@ -81,6 +83,7 @@ export default function Home() {
   return (
 
     <main className="min-h-screen">
+         <JsonLd/>
 
       <nav className="flex items-center justify-end px-8 py-6 z-50 absolute top-0 w-full bg-transparent">
 
@@ -361,6 +364,8 @@ export default function Home() {
       <AutoCarousel/>
       <ServiceComp />
       <ContactForm/>
+
+      <InfiniteMovingCardsDemo/>
 
       <section
 
