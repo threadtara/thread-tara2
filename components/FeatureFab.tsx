@@ -1,5 +1,5 @@
-'use client';
 
+"use client";
 import { useState } from 'react';
 import { fabricClips } from '@/lib/fabrics'; // your SEO-friendly clips file
 

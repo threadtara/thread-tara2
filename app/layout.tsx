@@ -41,7 +41,9 @@ export const metadata: Metadata = {
     "fabrics for clothing",
     "Fabrics in mid range",
     "Fabric near me",
-    "Fabrics near me"
+    "Fabrics near me",
+    "Fabrics in Delhi",
+    "Fabrics in Lajpat Nagar",
   ],
 
   authors: [{ name: "Thread Tara" }],
