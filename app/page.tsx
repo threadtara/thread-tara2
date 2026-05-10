@@ -184,8 +184,6 @@ export default function Home() {
 
           <div className="relative mx-auto flex justify-center overflow-hidden">
 
-            
-
             <Image
 
               src="/threadlogo.png"
