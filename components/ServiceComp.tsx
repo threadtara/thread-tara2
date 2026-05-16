@@ -1,6 +1,45 @@
 import Image from "next/image";
 import serviceFeature from "../public/features.webp";
 
+export const metadata = {
+title: "Our Services - Thread Tara",
+description: "Discover our premium fabric services at Thread Tara. We offer a wide range of high-quality fabrics including Banarasi Silk, Organza, Chiffon, and Net fabrics for bridal and occasion wear. Enjoy free delivery and personalized customization options.",
+keywords:[
+    // Fabric types
+    "Banarasi Silk fabric",
+    "Organza fabric India",
+    "Chiffon fabric bridal",
+    "Net fabric lehenga",
+    "Georgette fabric ethnic wear",
+    "Chanderi silk fabric",
+    "Brocade fabric",
+    "minimalist ethnic fabric",
+    "lightweight bridal fabric",
+    "sustainable ethnic fabric",
+    "pastel lehenga fabric",
+    // Indian ethnic
+    "bridal lehenga fabric",
+    "Indian ethnic wear fabric",
+    "occasion wear fabric India",
+    // Indo western
+    "Indo western fabric",
+    "fusion ethnic dress material",
+    // Local SEO
+    "fabric store Lajpat Nagar",
+    "fabric store New Delhi",
+    "bridal fabric Lajpat Nagar",
+    "wedding fabric store in gurugram",
+    "fabric customization in south delhi",
+    "fabrics for mens in delhi",
+    "fabrics for womens in delhi",
+    // Services
+    "free fabric delivery India",
+    "discounted fabric delivery Delhi",
+    "luxury fabric store in delhi",
+    "fabric customization service Delhi",
+]
+};
+
 export default function ServiceComp() {
   return (
     <section
@@ -15,7 +54,7 @@ export default function ServiceComp() {
           <h2
             id="services-heading"
             className="font-heading text-6xl text-fabric-dark my-4"
-            itemProp="name" // tells Google this is the service name
+            itemProp="name" 
           >
             Our Services
           </h2>

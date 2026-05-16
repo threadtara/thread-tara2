@@ -1,5 +1,6 @@
 "use client";
 
+import { StdioNull } from "node:child_process";
 import { useState, useRef, useEffect } from "react";
 
 const faqs = [
@@ -115,7 +116,7 @@ function FAQItem({
 }
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(1);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggle = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
